@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real-Time Food Price Tracker</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Add your CSS files here -->
+	<link rel="stylesheet" href="App.css">
+	<link rel="stylesheet" href="index.css">
+	<style>
+		body {
+			background-image: url('Capture.png');
+        background-repeat: repeat;
+        background-position: center;
+        opacity: 2;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Real-Time Food Price Tracker</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Deals</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="search">
+			<h2>Search for food items:</h2>
+<form>
+	<input type="text" id="search-bar" placeholder="Enter food item name">
+	<button type="submit" id="search-button">Search</button>
+</form>
+
+		</section>
+		
+		<section id="results">
+			<h2>Results:</h2>
+			<div id="search-results">
+				<!-- The search results will be dynamically added here -->
+			</div>
+			
+</form>
+
+		</section>
+		
+		<section id="alerts">
+			<h2>Price Drop Alerts:</h2>
+			<form>
+				<label for="food-item">Food item:</label>
+				<input type="text" id="food-item" placeholder="Enter food item name">
+				<label for="price-threshold">Price threshold:</label>
+				<input type="number" id="price-threshold" placeholder="Enter price threshold">
+				<label for="email">Email:</label>
+				<input type="email" id="email" placeholder="Enter your email">
+				<button type="submit" id="submit-button">Submit</button>
+			</form>
+			
+			
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Real-Time Food Price Tracker</p>
+	</footer>
+	
+	<!-- Add your JavaScript files here -->
+	<script src="App.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #07309ea4;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d445a;
+  text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+  background-color: #0cf3f3;
+  color: #848d0898;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+/* Main content styles */
+
+main {
+  margin: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f5f5f5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Real-time food tracker specific styles */
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.search-bar {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 50%;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.results-container {
+  margin: 2rem 0;
+}
+
+.results-table {
+  width: 100%;
+}
+
+.results-table th, .results-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.results-table th {
+  background-color: #f5f5f5;
+}
+
+.price-alert-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.price-alert-form label {
+  margin-bottom: 0.5rem
+
+}
